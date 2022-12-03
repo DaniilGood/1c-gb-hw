@@ -5,8 +5,8 @@
 // a = -9 b = -3 -> max = -3 
 
 Console.WriteLine("Введите два числа: ");
-int num1 = int.Parse(Console.ReadLine());
-int num2 = int.Parse(Console.ReadLine());
+int num1 = int.Parse(Console.ReadLine()?? "");
+int num2 = int.Parse(Console.ReadLine()?? "");
 
 if (num1>num2)
 {
