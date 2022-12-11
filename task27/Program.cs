@@ -30,8 +30,6 @@ int NumberLength(int num)
         i = i*10;
         length++;
     }
-
-
     return length;
 }
 
