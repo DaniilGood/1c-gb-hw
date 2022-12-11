@@ -25,11 +25,12 @@ void PrintArray(int[] col)
 }
 
 int[] array= new int[new Random().Next(1, 1000)];
+FillArray(array);
 int amount=0;
 for (int i = 0; i < array.Length; i++)
 {
     if(array[i]%2 == 0) amount++;
 }
-FillArray(array);
+
 PrintArray(array);
 Console.WriteLine(amount);
