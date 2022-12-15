@@ -36,7 +36,7 @@ double[,] GetMatrix(int m, int n)
     {
         for (int j = 0; j < n; j++)
         {
-            matrix[i, j] = Convert.ToDouble((rnd.Next(-100, 100)) / 10.0);
+            matrix[i, j] = rnd.Next(-100, 100) / 10.0;
         }
     }
     return matrix;
